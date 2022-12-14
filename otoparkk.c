@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 	
 	int sec,para,sifre;
 	char cevap;
-	printf("****ODEME SECENEKLERÝ**** \n");
+	printf("****ODEME SECENEKLERÄ°**** \n");
 	printf("1---> nakit \n");
 	printf("2---> kart  \n");
 	printf("3---> temazsiz kart \n");
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 				printf("eksik  miktar!! \n");
 				ucret-=para;
 				printf("%dTL daha ucret vermelisiniz \n",ucret);
-				printf("ucreti odiyecek misiniz ? (EVET ise=E / HAYÝR ise=H) : ");
+				printf("ucreti odiyecek misiniz ? (EVET ise=E / HAYÄ°R ise=H) : ");
 				scanf("%s",&cevap);
 				if(cevap == 'E')
 				{
@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
 				else if(cevap=='H')
 				{
 					printf("ceza kesilmistir ");
-					printf("bilgi için 1234 arayabilirsiniz");
+					printf("bilgi iÃ§in 1234 arayabilirsiniz");
 					printf("iyi gunler...");
 				}
 
@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
 			
 			else
 			{
-				para-=ucret;
+			    para-=ucret;
 			    printf("para ustu : %d \n",para);
 			    printf("iyi gunler ... \n");
 				
